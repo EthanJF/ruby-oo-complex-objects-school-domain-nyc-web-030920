@@ -18,8 +18,6 @@ class School
   
   def sort
     @roster.sort.to_h
-    # @roster.each do |grade, students|
-    #   students.sort
-    # end
+
   end
 end
