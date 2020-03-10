@@ -24,3 +24,5 @@ class School
    binding.pry
   end
 end
+
+school1 = School.new("George Jenkins").sort
