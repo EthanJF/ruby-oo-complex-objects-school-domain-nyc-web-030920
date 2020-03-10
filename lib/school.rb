@@ -18,15 +18,6 @@ class School
   end
   
   def sort
-   new_roster = @roster.sort.to_h
-   new_roster.map do |grade, student|
-     student.sort
-   end
-  # binding.pry
+   @roster.sort.to_h
   end
 end
-
-# school1 = School.new("George Jenkins")
-# school1.add_student("Jeremy", 7)
-# school1.add_student("David", 7)
-# school1.sort
