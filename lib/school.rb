@@ -21,5 +21,6 @@ class School
    new_roster.each do |grade, student|
      student.sort
    end
+   binding.pry
   end
 end
