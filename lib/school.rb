@@ -19,7 +19,7 @@ class School
   
   def sort
    new_roster = @roster.sort.to_h
-   new_roster.each do |grade, student|
+   new_roster.map do |grade, student|
      student.sort
    end
    binding.pry
